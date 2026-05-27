@@ -20,7 +20,7 @@ Start here if you're new to connectors in Azure Functions. Each repo contains a 
 
 | Language | Repository | What's inside |
 |---|---|---|
-| **.NET** (isolated worker, .NET 8 / .NET 10) | [Azure-Samples/functions-connectors-dotnet](https://github.com/Azure-Samples/functions-connectors-dotnet) | `ConnectorTrigger` binding, typed `Azure.Connectors.Sdk.*` clients, DI registration patterns. |
+| **.NET** (isolated worker, .NET 8 / .NET 10) | [Azure-Samples/functions-connectors-net](https://github.com/Azure-Samples/functions-connectors-net) | `ConnectorTrigger` binding, typed `Azure.Connectors.Sdk.*` clients, DI registration patterns. |
 | **Python** (3.13+) | [Azure-Samples/functions-connectors-python](https://github.com/Azure-Samples/functions-connectors-python) | `@app.connector_trigger` decorator, `azurefunctions-extensions-connectors` typed payloads. |
 | **TypeScript / JavaScript** (Node.js 22+) | [Azure-Samples/functions-connectors-typescript](https://github.com/Azure-Samples/functions-connectors-typescript) | `connectors.office365.onNewEmail` typed entry points and the generic `app.connectorTrigger`. |
 
