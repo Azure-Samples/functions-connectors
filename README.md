@@ -3,7 +3,7 @@
 This repository is the canonical index of samples that show how to use the new **Connector Namespace** integration with **Azure Functions**. Each sample lives in its own repo so you can clone, deploy, and explore independently.
 
 > [!NOTE]
-> Connectors in Azure Functions are in **public preview**. The Connector Namespace is currently available in **West Central US** (`westcentralus`); your function app can be deployed in any region that supports the chosen hosting plan. Supported languages: .NET 10 and .NET 8 isolated worker, Python 3.13+, and Node.js 22+. See the [overview](https://learn.microsoft.com/azure/azure-functions/functions-connectors-overview) for details.
+> Connectors in Azure Functions are in **public preview**. Your function app can be deployed in any region that supports the chosen hosting plan. Supported languages: .NET 10 and .NET 8 isolated worker, Python 3.13+, and Node.js 22+. See the [overview](https://learn.microsoft.com/azure/azure-functions/functions-connectors-overview) for details.
 
 ## What are Functions connectors?
 
@@ -29,6 +29,7 @@ Start here if you're new to connectors in Azure Functions. Each repo contains a 
 Larger samples that combine a connector trigger, the connector SDK, and other Azure Functions bindings to solve a complete scenario.
 
 - [**End-to-end .NET sample: email → user lookup → Teams**](https://github.com/Azure-Samples/functions-connectors-net-e2e-email-users-teams) — A function fires on each new Office 365 email, enriches the sender through the Office 365 Users connector, and posts an adaptive card to a Microsoft Teams channel. Shows DI registration of multiple typed clients (`Office365Client`, `Office365UsersClient`, `TeamsClient`) and per-connection runtime URLs.
+- [**Automated Document Intake with SharePoint, Azure OpenAI, and Teams**](https://github.com/Azure-Samples/functions-connectors-net-rfp-intake-sharepoint-teams) - A customer submits an RFP document to a shared SharePoint library. An Azure Function picks it up, an AI model extracts the requirements, and a summary card is posted to a Microsoft Teams channel so the right people can respond.
 
 ## Authentication samples
 
