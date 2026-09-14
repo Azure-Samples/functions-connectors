@@ -3,7 +3,7 @@
 This repository is the canonical index of samples that show how to use the new **Connector Namespace** integration with **Azure Functions**. Each sample lives in its own repo so you can clone, deploy, and explore independently.
 
 > [!NOTE]
-> Connectors in Azure Functions are in **public preview**. Your function app can be deployed in any region that supports the chosen hosting plan. Supported languages: .NET 10 and .NET 8 isolated worker, Python 3.13+, and Node.js 22+. See the [overview](https://learn.microsoft.com/azure/azure-functions/functions-connectors-overview) for details.
+> Connectors in Azure Functions are in **public preview**. Your function app can be deployed in any region that supports the chosen hosting plan. Supported languages: .NET 10 and .NET 8 isolated worker, Python 3.10+, and Node.js 22+. See the [overview](https://learn.microsoft.com/azure/azure-functions/functions-connectors-overview) for details.
 
 ## What are Functions connectors?
 
@@ -21,7 +21,7 @@ Start here if you're new to connectors in Azure Functions. Each repo contains a 
 | Language | Repository | What's inside |
 |---|---|---|
 | **.NET** (isolated worker, .NET 8 / .NET 10) | [Azure-Samples/functions-connectors-net](https://github.com/Azure-Samples/functions-connectors-net) | `ConnectorTrigger` binding, typed `Azure.Connectors.Sdk.*` clients, DI registration patterns. |
-| **Python** (3.13+) | [Azure-Samples/functions-connectors-python](https://github.com/Azure-Samples/functions-connectors-python) | `@app.connector_trigger` decorator, `azurefunctions-extensions-connectors` typed payloads. |
+| **Python** (3.10+) | [Azure-Samples/functions-connectors-python](https://github.com/Azure-Samples/functions-connectors-python) | `@app.connector_trigger` decorator, `azurefunctions-extensions-connectors` typed payloads. |
 | **TypeScript / JavaScript** (Node.js 22+) | [Azure-Samples/functions-connectors-typescript](https://github.com/Azure-Samples/functions-connectors-typescript) | `connectors.office365.onNewEmail` typed entry points and the generic `app.connectorTrigger`. |
 
 ## End-to-end scenario samples
