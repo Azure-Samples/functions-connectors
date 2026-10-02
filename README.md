@@ -31,7 +31,7 @@ Each repository has its own prerequisites, deployment instructions, and `azd` te
 - [Use connectors in Azure Functions](https://learn.microsoft.com/azure/azure-functions/functions-connectors-overview)
 - [Azure connectors overview](https://learn.microsoft.com/azure/connectors/overview)
 - [Connector Namespace](https://learn.microsoft.com/azure/connectors/connector-namespace)
-- [Serverless agents runtime in Azure Functions](https://learn.microsoft.com/azure/azure-functions/functions-serverless-agents-runtime)
+- [Azure Functions hosted skills](https://learn.microsoft.com/azure/azure-functions/functions-hosted-skills)
 
 ## Related repositories
 
