@@ -1,4 +1,4 @@
-# Azure Functions Connector Samples
+# Azure Functions Connectors Samples
 
 Quickstart and end-to-end samples for using Connector Namespace with Azure Functions. Receive events from external services through connector triggers and call connector operations from your code.
 
@@ -20,7 +20,7 @@ Each repository has its own prerequisites, deployment instructions, and `azd` te
 | Scenario | Repository |
 | -------- | ---------- |
 | New email, sender lookup, and a Teams adaptive card (.NET) | [functions-connectors-net-e2e-email-users-teams](https://github.com/Azure-Samples/functions-connectors-net-e2e-email-users-teams) |
-| SharePoint document intake, Azure OpenAI extraction, and a Teams summary (.NET) | [functions-connectors-net-rfp-intake-sharepoint-teams](https://github.com/Azure-Samples/functions-connectors-net-rfp-intake-sharepoint-teams) |
+| SharePoint document intake, Foundry Content Understanding extraction, and a Teams summary (.NET) | [functions-connectors-net-rfp-intake-sharepoint-teams](https://github.com/Azure-Samples/functions-connectors-net-rfp-intake-sharepoint-teams) |
 
 ## Authentication samples
 
