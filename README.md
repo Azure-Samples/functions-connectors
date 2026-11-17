@@ -12,8 +12,6 @@ Quickstart and end-to-end samples for using Connector Namespace with Azure Funct
 
 Each repository has its own prerequisites, deployment instructions, and `azd` templates. Choose a language, open a sample folder, and follow its README.
 
-> [!NOTE]
-> Connectors in Azure Functions are in public preview. See the [overview](https://learn.microsoft.com/azure/azure-functions/functions-connectors-overview) for supported runtimes and hosting plans.
 
 ## End-to-end scenario samples
 
